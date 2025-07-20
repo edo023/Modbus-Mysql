@@ -1,7 +1,7 @@
 🔌 Modbus TCP → MySQL Gateway (Python)
 Questo progetto è un gateway industriale sviluppato in Python per acquisire dati da dispositivi Modbus TCP e salvarli in un database MySQL, utile per applicazioni di monitoraggio energetico, supervisione impianti o analisi dati storici.
 
-**IMPORTANTE** è un progetto opensource e in quanto tale si accettano migliorie e suggerimenti.
+**IMPORTANTE** è un progetto open source e in quanto tale si accettano migliorie e suggerimenti.
 
 🚀 Funzionalità principali
 Multi-dispositivo: supporta più device Modbus TCP configurabili individualmente (ID, registri, tabella).
