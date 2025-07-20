@@ -1,0 +1,39 @@
+{
+    "ip": "192.168.0.10",
+    "port": 502,
+    "scan_interval": 2.0,
+    "db": {
+        "host": "localhost",
+        "user": "root",
+        "password": "password",
+        "database": "energia",
+        "table": "letture_potenza"
+    },
+    "devices": [
+        {
+            "name": "tensione",
+            "unit_id": 1,
+            "table": "tensione",
+            "registers": [
+                {
+                    "name": "tensione",
+                    "address": 40003,
+                    "type": "float32"
+                },
+                {
+                    "name": "tensione",
+                    "address": 40004,
+                    "type": "float32"
+                },
+                {
+                    "name": "tensione",
+                    "address": 40005,
+                    "type": "float32"
+                }
+            ]
+        }
+    ],
+    "auto_start": true,
+    "plcs": [],
+    "autostart": false
+}

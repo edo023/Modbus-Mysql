@@ -1,0 +1,37 @@
+{
+    "ip": "192.168.10.10",
+    "port": 502,
+    "scan_interval": 10.0,
+    "db": {
+        "host": "localhost",
+        "user": "root",
+        "password": "password",
+        "database": "energia",
+        "table": "letture_potenza"
+    },
+    "devices": [
+        {
+            "name": "a",
+            "unit_id": 1,
+            "registers": [
+                {
+                    "name": "potenza",
+                    "address": 3060,
+                    "type": "float32"
+                },
+                {
+                    "name": "tensione ",
+                    "address": 4000,
+                    "type": "float32"
+                }
+            ]
+        },
+        {
+            "name": "ss",
+            "unit_id": 22,
+            "table": "prova",
+            "registers": []
+        }
+    ],
+    "auto_start": true
+}
